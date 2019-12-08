@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FibonacciMathGame/static/css/main.d1b05096.chunk.css",
+    "main.js": "/FibonacciMathGame/static/js/main.a96ae0db.chunk.js",
+    "main.js.map": "/FibonacciMathGame/static/js/main.a96ae0db.chunk.js.map",
+    "runtime-main.js": "/FibonacciMathGame/static/js/runtime-main.854901dc.js",
+    "runtime-main.js.map": "/FibonacciMathGame/static/js/runtime-main.854901dc.js.map",
+    "static/js/2.e227f6aa.chunk.js": "/FibonacciMathGame/static/js/2.e227f6aa.chunk.js",
+    "static/js/2.e227f6aa.chunk.js.map": "/FibonacciMathGame/static/js/2.e227f6aa.chunk.js.map",
+    "index.html": "/FibonacciMathGame/index.html",
+    "precache-manifest.71fd2e9c562217527b23a26e7f9a4540.js": "/FibonacciMathGame/precache-manifest.71fd2e9c562217527b23a26e7f9a4540.js",
+    "service-worker.js": "/FibonacciMathGame/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/FibonacciMathGame/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.e227f6aa.chunk.js.LICENSE": "/FibonacciMathGame/static/js/2.e227f6aa.chunk.js.LICENSE",
+    "static/media/fibo.png": "/FibonacciMathGame/static/media/fibo.2f475e22.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.854901dc.js",
+    "static/js/2.e227f6aa.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.a96ae0db.chunk.js"
+  ]
+}
