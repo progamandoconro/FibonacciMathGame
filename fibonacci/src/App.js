@@ -20,7 +20,7 @@ function App() {
     let correctAnswer = f[f.length-1];
     
     if (correctAnswer.toString() === answer.toString()) {
-      alert('Woowow ' + correctAnswer +" is correct, genius !!! " + f.toString());
+      alert('Woowow ' + correctAnswer +" is correct, genius !!! " + f.toString() + " A new level is now available");
       
     }
     else alert ('Sorry, that is not correct');  
@@ -75,8 +75,8 @@ function App() {
     
     <div className="App">
     <Header/>
-    <div className="App-header">
-    <h1>What is the {nValue}th. Fibonacci number? </h1>
+    <div className="App-body">
+    <h1> Level </h1>
     <input
     value={nValue}
     onChange={e=>nValueOnHandleChange(e)}
@@ -85,8 +85,11 @@ function App() {
     max={gameLevelHandler(nValue)}
     
     ></input>
+
+<h1>What is the {nValue}th. Fibonacci number? </h1>
+
     
-    <h1>Nth Fibonacci:</h1>
+    
     
     <input
     value={answer}
@@ -105,8 +108,8 @@ function App() {
     </Button>
     </div>
 
-    <h1> Rating Board </h1>
-    
+    <h1> Your Fibonacci Points </h1>
+
     <Table >
     <TableCell 
     className='Table'
