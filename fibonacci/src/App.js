@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import Footer from './Footer'
 
+
 function App() {
   
   const [nValue, setnValue] = useState("3");
@@ -58,6 +59,7 @@ function App() {
     }
     setAnswer(e.target.value);
   };
+
   
   return (
     
@@ -92,7 +94,6 @@ function App() {
     onClick={()=>fiboCalculator(nValue)}
     > Send
     </button>
-    
     </div>
     <Footer/>
     </div>
