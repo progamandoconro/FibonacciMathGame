@@ -21,6 +21,22 @@ function App() {
     
   };
   
+  const nValueOnHandleChange = e => {
+    let valu = e.target.value;
+    if (!Number(valu)) {
+      return;
+    }
+    nValueHandler(e.target.value);
+  };
+  
+  const answerOnHandleChange = e => {
+    let valu = e.target.value;
+    if (!Number(valu)) {
+      return;
+    }
+    answerHandler(e.target.value);
+  };
+  
   return (
     
     <div className="App">
@@ -30,8 +46,9 @@ function App() {
     
     <input
     value={nValue}
-    onChange={e=>nValueHandler(e.target.value)}
+    onChange={e=>nValueOnHandleChange(e)}
     type='number'
+    
     ></input>
     
     <hr></hr>
@@ -39,8 +56,9 @@ function App() {
     
     <input
     value={answer}
-    onChange={e=>answerHandler(e.target.value)}
+    onChange={e=>answerOnHandleChange(e)}      
     type="number"
+    
     ></input>
     
     <hr></hr>
