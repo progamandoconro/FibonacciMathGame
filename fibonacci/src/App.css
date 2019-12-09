@@ -42,4 +42,19 @@
   to {
     transform: rotate(360deg);
   }
+
+  
+}
+
+.Table {
+  background-color: #282c34;
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px - 1 vmin);
+  color: white;
+
+
+
 }
