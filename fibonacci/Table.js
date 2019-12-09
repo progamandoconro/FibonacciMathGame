@@ -1,3 +1,5 @@
+import React from 'react'
+
 const showTable = (n)=> {
     if (n <= 2) return 1;
     let f = [0, 1, 1];
@@ -9,4 +11,4 @@ const showTable = (n)=> {
 
 
   }
-  
+  export default showTable;

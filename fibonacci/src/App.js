@@ -1,8 +1,10 @@
 import React, {useState,} from 'react';
-import './App.css';
+import {Button,Table,TableCell} from '@material-ui/core';
+
 import Header from './Header'
 import Footer from './Footer'
 
+import './App.css';
 
 function App() {
   
@@ -59,7 +61,15 @@ function App() {
     }
     setAnswer(e.target.value);
   };
-
+  
+  const showTable = (n)=> {
+    if (n <= 2) return 1;
+    let f = [0, 1, 1];
+    for(let i = 3; i <= n; i++) {
+      f[i] = f[i-1] + f[i-2];
+    }
+    return f.slice(1,f.length-2).map(e=><li>{e.toString()}</li>)
+  }
   
   return (
     
@@ -67,7 +77,6 @@ function App() {
     <Header/>
     <div className="App-header">
     <h1>What is the {nValue}th. Fibonacci number? </h1>
-    
     <input
     value={nValue}
     onChange={e=>nValueOnHandleChange(e)}
@@ -77,8 +86,7 @@ function App() {
     
     ></input>
     
-    <hr></hr>
-    <h1>Your Answer </h1>
+    <h1>Nth Fibonacci:</h1>
     
     <input
     value={answer}
@@ -88,15 +96,26 @@ function App() {
     
     ></input>
     
-    <hr></hr>
-    
-    <button
+    <h1>Your Answer </h1>
+
+    <Button
+    style={{color:'white'}}
     onClick={()=>fiboCalculator(nValue)}
     > Send
-    </button>
+    </Button>
     </div>
+
+    <h1> Rating Board </h1>
+    
+    <Table >
+    <TableCell 
+    className='Table'
+    > {showTable(nValue)} 
+    </TableCell>
+    </Table>
     <Footer/>
     </div>
+    
     );
   }
   
