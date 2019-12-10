@@ -2,15 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 20vmin;
-  pointer-events: none;
-  padding: 50;
-}
-
 .App-logo-header {
   padding: 1%;
-  height: 10vmin;
+  height: 20vmin;
   pointer-events: none;
   animation: App-logo-spin infinite 20s linear;
 }
@@ -49,11 +43,10 @@
 
 .Table {
   background-color: #282c34;
-  min-height: 75vh;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: calc(10px - 1 vmin);
+  font-size: 20;
   color: white;
 
 

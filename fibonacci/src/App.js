@@ -1,5 +1,4 @@
 import React, {useState,} from 'react';
-import {Button,Table,TableCell} from '@material-ui/core';
 
 import Header from './Header'
 import Footer from './Footer'
@@ -101,21 +100,21 @@ function App() {
     
     <h1>Your Answer </h1>
 
-    <Button
-    style={{color:'white'}}
+    <button
     onClick={()=>fiboCalculator(nValue)}
     > Send
-    </Button>
+    </button>
     </div>
 
     <h1> Your Fibonacci Points </h1>
 
-    <Table >
-    <TableCell 
-    className='Table'
+    <table
+      className='Table'
     > {showTable(nValue)} 
-    </TableCell>
-    </Table>
+       <button style={{backgroundColor:'black',color:'white', border:'black',fontSize:20}}> Save </button>
+
+    </table>
+    
     <Footer/>
     </div>
     
@@ -123,4 +122,3 @@ function App() {
   }
   
   export default App;
-  
