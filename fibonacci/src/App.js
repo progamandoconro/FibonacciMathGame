@@ -27,10 +27,7 @@ function App() {
   };
   
   const answerOnHandleChange = e => {
-    let valu = e.target.value;
-    if (!Number(valu)) {
-      return;
-    }
+    
     setAnswer(e.target.value);
   };
   
@@ -42,33 +39,35 @@ function App() {
     }
     return f.slice(1,f.length-2).map(e=><li>{e.toString()}</li>)
   };
-  
+
   return (
     
     <div className="App">
     <Header/>
     <div className="App-body">
     
-<h1>What is the {nValue}th. Fibonacci number? </h1>
+    <h1>What is the {nValue}th. Fibonacci number? </h1>
     
     <input
+    className='field'
     value={answer}
     onChange={e=>answerOnHandleChange(e)}      
-    type="number"
+    
     min='2'
     
     ></input>
     
     <h1>Your Answer </h1>
-
+    
     <button
+    className='button'
     onClick={()=>fiboCalculator(nValue)}
     > Send
     </button>
     </div>
     <h1> Your Fibonacci Points </h1>
     <table
-      className='Table'
+    className='Table'
     > {showTable(nValue)} 
     </table>
     
