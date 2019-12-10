@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9d9c35bba2bd376be8aba216eb0fa35",
+    "revision": "b4cd77be7b5ff603b0561828a4245e25",
     "url": "/FibonacciMathGame/index.html"
   },
   {
-    "revision": "f100c0ea5979bd3cae79",
-    "url": "/FibonacciMathGame/static/css/main.7f7fb072.chunk.css"
+    "revision": "50a6619a374ea5de4cb9",
+    "url": "/FibonacciMathGame/static/css/main.3ae48065.chunk.css"
   },
   {
     "revision": "d635e8e64f6a5b3dc70e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FibonacciMathGame/static/js/2.47ef4be9.chunk.js.LICENSE"
   },
   {
-    "revision": "f100c0ea5979bd3cae79",
-    "url": "/FibonacciMathGame/static/js/main.74974bcb.chunk.js"
+    "revision": "50a6619a374ea5de4cb9",
+    "url": "/FibonacciMathGame/static/js/main.ea614849.chunk.js"
   },
   {
     "revision": "a1efb270d29bb06aecd8",
