@@ -1,7 +1,7 @@
 # FibonacciMathGame
 App to mentally calculate the nth Fibonacci number.
 
-https://progamandoconro.github.io/FibonacciMathGame/
+https://programandoconro.github.io/FibonacciMathGame/
 
 ## My simplest working example (starting point) 
 ```
